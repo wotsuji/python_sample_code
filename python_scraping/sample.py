@@ -19,3 +19,4 @@ html = content.decode()
 
 title = html.split('<title>')[1].split('</title')[0]
 print(title)
+
